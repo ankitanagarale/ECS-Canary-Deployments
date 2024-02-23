@@ -2,11 +2,11 @@ version: 0.2
 phases:
   install:
     commands:
-      - REPOSITORY_URI=872599169723.dkr.ecr.ap-south-1.amazonaws.com/canary
+      - REPOSITORY_URI=581355710136.dkr.ecr.us-east-2.amazonaws.com/canary-ecr
   pre_build:
     commands:
       - echo Logging starting build ...
-      - aws ecr get-login-password --region ap-south-1 | docker login --username AWS --password-stdin 872599169723.dkr.ecr.ap-south-1.amazonaws.com
+      - aws ecr get-login-password --region us-east-2 | docker login --username AWS --password-stdin 581355710136.dkr.ecr.us-east-2.amazonaws.com
   build:
     commands:
       - echo Build started on `date`
