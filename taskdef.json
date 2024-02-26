@@ -3,7 +3,7 @@
     "containerDefinitions": [
         {
             "name": "nginx",
-            "image": "581355710136.dkr.ecr.us-east-2.amazonaws.com/canary-ecs:13",
+            "image": "<ImageURI>",
             "cpu": 0,
             "portMappings": [
                 {
