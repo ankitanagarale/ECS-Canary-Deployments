@@ -1,9 +1,9 @@
 {
-    "taskDefinitionArn": "arn:aws:ecs:us-east-2:581355710136:task-definition/canary-td:8",
+    "taskDefinitionArn": "arn:aws:ecs:us-east-2:581355710136:task-definition/canary-td:14",
     "containerDefinitions": [
         {
             "name": "nginx",
-            "image": "581355710136.dkr.ecr.us-east-2.amazonaws.com/canary-ecs:5",
+            "image": "581355710136.dkr.ecr.us-east-2.amazonaws.com/canary-ecs:13",
             "cpu": 0,
             "portMappings": [
                 {
@@ -36,7 +36,7 @@
     "taskRoleArn": "arn:aws:iam::581355710136:role/ecsTaskExecutionRole",
     "executionRoleArn": "arn:aws:iam::581355710136:role/ecsTaskExecutionRole",
     "networkMode": "awsvpc",
-    "revision": 8,
+    "revision": 14,
     "volumes": [],
     "status": "ACTIVE",
     "requiresAttributes": [
@@ -82,7 +82,7 @@
         "cpuArchitecture": "X86_64",
         "operatingSystemFamily": "LINUX"
     },
-    "registeredAt": "2024-02-26T05:25:12.879Z",
-    "registeredBy": "arn:aws:sts::581355710136:assumed-role/AWSCodePipelineServiceRole-us-east-2-canary-pipeline/1708925112612",
+    "registeredAt": "2024-02-26T06:46:59.501Z",
+    "registeredBy": "arn:aws:sts::581355710136:assumed-role/AWSCodePipelineServiceRole-us-east-2-canary-pipeline/1708930019202",
     "tags": []
 }
