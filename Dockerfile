@@ -1,2 +1,2 @@
 FROM nginx:latest
-COPY blue /usr/share/nginx/html/blue
+COPY green /usr/share/nginx/html/green
