@@ -2,7 +2,7 @@ version: 0.2
 phases:
   install:
     commands:
-      - REPOSITORY_URI=581355710136.dkr.ecr.us-east-2.amazonaws.com/canary-ecs
+      - REPOSITORY_URI=581355710136.dkr.ecr.us-east-2.amazonaws.com/canary-ecr
   pre_build:
     commands:
       - echo Logging starting build ...
