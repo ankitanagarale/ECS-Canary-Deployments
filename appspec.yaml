@@ -3,7 +3,7 @@ Resources:
   - TargetService:
       Type: AWS::ECS::Service
       Properties:
-        TaskDefinition: arn:aws:ecs:us-east-2:581355710136:task-definition/canary-td:3
+        TaskDefinition: arn:aws:ecs:us-east-2:581355710136:task-definition/canary-td:8
         LoadBalancerInfo:
           ContainerName: "nginx"
           ContainerPort: 80
